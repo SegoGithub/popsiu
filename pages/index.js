@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import s from '../public/s.png'
 import si from '../public/si.png'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <script src="/main.js"></script>
+      <Script src="/main.js"></Script>
     </>
   )
 }
