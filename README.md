@@ -10,3 +10,7 @@ npm run dev
 ```
 This is a client-site clone of popcat.click.
 There are no leaderboards. yet
+
+## Credits
+
+[most of the functionality](https://github.com/codingstar-jason/Popcat-tutorial)
