@@ -5,10 +5,6 @@ module.exports = {
     fontFamily: {
       'nunito': ['Nunito', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
      },
-     backgroundImage: {
-      's': "url('/s.png')",
-      'si': "url('/si.png')",
-     },
     extend: {},
   },
   variants: {
