@@ -3,7 +3,6 @@ import Image from 'next/image'
 import s from '../public/s.png'
 import si from '../public/si.png'
 import Script from 'next/script'
-import Html from 'next/document'
 
 export default function Home() {
   return (
@@ -17,24 +16,22 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet" />
         <script data-goatcounter="https://sego-siu.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
       </Head>
-      <Html lang="en">
-        <noscript>
-          <img src="https://sego-siu.goatcounter.com/count?p=/" />
-        </noscript>
-        <main className="home-header">
-          <div id="btn" className="select-none">
-            <Image id="s" src={s} alt="not siu" layout="fill" objectFit="cover" quality={100} />
-            <Image id="si" src={si} alt="SIIIIIIIIIIIIUUU" layout="fill" objectFit="cover" quality={100} />
+      <noscript>
+        <img src="https://sego-siu.goatcounter.com/count?p=/" />
+      </noscript>
+      <main className="home-header">
+        <div id="btn" className="select-none">
+          <Image id="s" src={s} alt="not siu" layout="fill" objectFit="cover" quality={100} />
+          <Image id="si" src={si} alt="SIIIIIIIIIIIIUUU" layout="fill" objectFit="cover" quality={100} />
+        </div>
+        <div className="center">
+          <div className="z-10 center">
+            <h1 className="font-nunito font-black text-8xl text-white thickborder">POPSIU</h1>
+            <h1 id="count" className="font-nunito font-black text-white count">0</h1>
           </div>
-          <div className="center">
-            <div className="z-10 center">
-              <h1 className="font-nunito font-black text-8xl text-white thickborder">POPSIU</h1>
-              <h1 id="count" className="font-nunito font-black text-white count">0</h1>
-            </div>
-          </div>
-        </main>
-        <Script src="/main.js"></Script>
-      </Html>
+        </div>
+      </main>
+      <Script src="/main.js"></Script>
     </>
   )
 }
