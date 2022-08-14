@@ -9,7 +9,7 @@ npm i
 npm run dev
 ```
 This is a client-site clone of popcat.click.
-There are no leaderboards. yet
+There will be no leaderboards.
 
 ## Credits
 
